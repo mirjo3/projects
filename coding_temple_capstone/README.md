@@ -2,7 +2,7 @@
 data source: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
 
 ## Objective
-Capstone project using Python, Streamlit or Tableau to show how to Ask, Prepare, Process, Analyze, Share, and Act on a given dataset.
+Capstone project using Python and Tableau to show how to Ask, Prepare, Process, Analyze, Share, and Act on a given dataset.
 
 ## Introduction
 The opioid crisis in the United States persists, with limited resources due to cost and availability. Non-profits and local governments have taken the initiative to assist those affected. The federal government can offer support, similar to Medicare and Medicaid, to those without access to private sector services.
@@ -14,7 +14,7 @@ Dataset Acquisition: The dataset used for this project was sourced from public g
 
 Software: Python was used to retrieve a dataset from an API, clean, manipulate, and fix all possible data tables.
 
-Visualization: Tableau and Streamlit provide graphs, charts, and plots to distill long datasets
+Visualization: Tableau provided graphs, charts, and plots to distill long datasets
 
 By combining these methodologies, we are able to gain valuable insights into the distribution of medicare sponsored opioid treatment programs.
 
@@ -23,10 +23,6 @@ By combining these methodologies, we are able to gain valuable insights into the
 ### Tableau
 
 https://public.tableau.com/views/OpioidTreatmentProgramsintheUS/cms_participants?:language=en-US&:display_count=n&:origin=viz_share_link
-
-### Streamlit
-
-
 
 ## Conclusion
 
