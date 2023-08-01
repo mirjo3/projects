@@ -29,6 +29,6 @@ By combining these methodologies, we are able to gain valuable insights into the
 
 ## Conclusion
 
-Through the assimilation of census data and the count of opioid programs within each state, the federal government can partner with state governments to determine the ratio of treatment centers per capita. This information can be utilized to identify regions with varying levels of accessibility to these crucial services.
+Through the assimilation of census data and the count of opioid programs within each state, the federal government can partner with state governments to determine the ratio of treatment centers per capita. This complete information can be utilized to identify regions with varying levels of accessibility to these crucial services.
 
 While the accessibility of private healthcare services is desirable, these opportunities are not equitably available to all individuals. By pinpointing areas where the federal government can make improvements, public tax funds can be invested in promoting recovery and enhancing the life expectancy of the average American citizen.
