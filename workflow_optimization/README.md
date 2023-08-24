@@ -19,6 +19,11 @@ Software: Utilized Microsoft Excel for data gathering, cleaning, manipulation, a
 Visualization: Created dashboards and graphs using Excel.
 
 ## Key Visualization
+![First trial](workflow_optimization/Shift Comparison Aggregate (PXT2 at 1100).png)
+![Second Trial](workflow_optimization/Shift Comparison Aggregate (PXT2 At 1430).png)
+![Third Trial](workflow_optimization/Shift Comparison Aggregate (PXT2 At 1200).png)
+
+![September Comparison](workflow_optimization/[Sep] AVERAGES OF PARX & TOTAL REFILL_LOAD ACTIVITY.png)
 
 ## Conclusion
 By meticulously integrating and honing these methodologies, we navigated through numerous trials and challenges. Ultimately, we harnessed actionable insights that enabled us to effectively identify and harmonize the distribution of sixteen distinct shifts and their corresponding responsibilities in an impressively timely manner.
