@@ -6,7 +6,7 @@ Dataset is not shared publicly for privacy.
 Rebalance and establish workflows for sixteen inpatient pharmacy technician shifts leveraging data insights.
 
 ## Background
-As COVID-19 restrictions waned in the hospital environment, the department embarked on restructuring the 17 different technician shifts under new leadership.
+As COVID-19 restrictions waned in the hospital environment, the department embarked on restructuring the sixteen different technician shifts under new leadership.
 
 ## Methodology
 To achieve our goal, we adopted a comprehensive approach:
