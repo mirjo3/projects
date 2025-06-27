@@ -82,12 +82,52 @@ medicare-opioid-analysis/
 ```
 ## Usage
 
+### Prerequisites
 ```bash
 pip install pandas requests
-python data_collection.py
-python data_processing.py
 ```
-Output: Clean dataset with treatment centers per capita by state, ready for Tableau visualization
+Data Collection
+```
+import requests
+import pandas as pd
+
+# CMS API endpoint
+dataset_id = "f1a8c197-b53d-4c24-9770-aea5d5a97dfb"
+url = f"https://data.cms.gov/data-api/v1/dataset/{dataset_id}/data"
+
+# Get data from API
+response = requests.get(url)
+data = response.json()
+df = pd.DataFrame(data)
+```
+Data Processing
+```
+# Clean column names
+df.columns = df.columns.str.lower().str.replace(' ', '_')
+
+# Split multiple NPI values into separate rows
+df['npi'] = df['npi'].str.split(' ')
+df = df.explode('npi').reset_index(drop=True)
+
+# Export for visualization
+df.to_csv('opioid_providers.csv', index=False)
+```
+Run Complete Analysis
+```
+# Clone repository
+git clone [your-repo-url]
+
+# Run Jupyter notebook
+jupyter notebook cmsdata.ipynb
+
+# Or run as Python script
+python data_collection.py
+```
+Output Files:
+
+opioid_providers.csv - Cleaned provider data ready for Tableau
+Analysis summary with provider counts by state
+Geographic distribution data for mapping
 
 ## Future Enhancements
 
