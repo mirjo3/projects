@@ -72,21 +72,24 @@ Features:
 - **Cost Optimization:** Targets areas with highest need-to-resource ratios
 
 ## Project Structure
+```
 medicare-opioid-analysis/
 ├── data_collection.py          # API data retrieval
 ├── data_processing.py          # Cleaning and analysis
 ├── analysis_output.csv         # Processed results
 ├── tableau_dashboard.twb       # Interactive visualizations
 └── README.md                   # Documentation
+```
 ## Usage
 
 ```bash
 pip install pandas requests
 python data_collection.py
 python data_processing.py
-
+```
 Output: Clean dataset with treatment centers per capita by state, ready for Tableau visualization
-Future Enhancements
+
+## Future Enhancements
 
 Real-time Updates: Automated monthly data refresh
 Demographic Overlay: Income and insurance coverage analysis
