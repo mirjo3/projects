@@ -91,18 +91,6 @@ inventory-optimizer/
 - Dynamic par level adjustment based on usage patterns
 - Time series analysis for trend identification
 
-## File Structure
-
-```
-inventory-optimizer/
-│
-├── inventory_par_level_optimizer.py    # Main analysis script
-├── README.md                           # This documentation
-├── requirements.txt                    # Python dependencies
-└── sample_data/                        # Example datasets (sanitized)
-    └── sample_transactions.csv
-```
-
 ## Future Enhancements
 
 - **Seasonal Adjustment**: Incorporate seasonal usage patterns
