@@ -1,4 +1,3 @@
-```markdown
 # Inventory Par Level Optimization System
 
 Python tool that calculates optimal inventory levels using statistical analysis. Processes transaction data to recommend minimum and maximum stock levels that balance costs with service requirements.
