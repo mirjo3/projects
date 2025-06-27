@@ -1,34 +1,94 @@
-# Medicare Opioid Treatment Program
-data source: https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
+# Medicare Opioid Treatment Program Analysis
 
-## Objective
-Capstone project using Python and Tableau to show how to Ask, Prepare, Process, Analyze, Share, and Act on a given dataset.
+Python and Tableau project analyzing Medicare opioid treatment program distribution across the United States. Combines government treatment center data with census demographics to identify underserved regions.
 
-## Introduction
-The opioid crisis in the United States persists, with limited resources due to cost and availability. Non-profits and local governments have taken the initiative to assist those affected. The federal government can offer support, similar to Medicare and Medicaid, to those without access to private sector services.
+## Overview
+
+Analyzes geographic distribution of Medicare-funded opioid treatment programs to identify areas lacking adequate treatment access. Uses per capita analysis to highlight regions where federal investment could improve treatment availability.
+
+**Key Features:**
+- API integration with government datasets
+- Geographic analysis by state and region
+- Per capita treatment ratio calculations
+- Interactive dashboard for policy planning
+
+## Data Sources
+
+- **Primary:** [CMS Opioid Treatment Program Providers](https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers)
+- **Secondary:** US Census demographic data
+- **Method:** Python API integration for automated data retrieval
 
 ## Methodology
-Our aim can be achieved by using a variety of data analysis techniques and examining publicly available data:
 
-Dataset Acquisition: The dataset used for this project was sourced from public government agencies. The datasets are provided via APIs.
+### 1. Data Collection
+- Retrieved treatment center locations via CMS API
+- Collected state population data from census sources
+- Automated data refresh process using Python
 
-Software: Python was used to retrieve a dataset from an API, clean, manipulate, and fix all possible data tables.
+### 2. Geographic Analysis
+- Mapped treatment centers by state and region
+- Calculated treatment centers per capita by state
+- Identified geographic gaps in coverage
 
-Visualization: Tableau provided graphs, charts, and plots to distill long datasets
+### 3. Visualization
+- Built interactive Tableau dashboard
+- Created state-by-state comparison charts
+- Developed per capita treatment ratio maps
 
-By combining these methodologies, we are able to gain valuable insights into the distribution of medicare sponsored opioid treatment programs.
+## Key Findings
 
-## Key Visualization
+**Treatment Distribution:**
+- Significant variation in per capita treatment availability
+- Rural states show lower treatment center density
+- Geographic clusters in urban areas
 
-### Tableau
+**Policy Implications:**
+- Identified underserved regions for targeted investment
+- Quantified treatment gaps for federal planning
+- Provided data foundation for resource allocation
 
-<div class='tableauPlaceholder' id='viz1690853874423' style='position: relative'><noscript><a href='#'><img alt='cms_participants ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Op&#47;OpioidTreatmentProgramsintheUS&#47;cms_participants&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='OpioidTreatmentProgramsintheUS&#47;cms_participants' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Op&#47;OpioidTreatmentProgramsintheUS&#47;cms_participants&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+## Tableau Dashboard
 
-[Interactive Tableau Link](https://public.tableau.com/views/OpioidTreatmentProgramsintheUS/cms_participants?:language=en-US&:display_count=n&:origin=viz_share_link)
+[**View Interactive Dashboard**](https://public.tableau.com/views/OpioidTreatmentProgramsintheUS/cms_participants?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+Features:
+- State-by-state treatment center counts
+- Per capita analysis with population weighting
+- Geographic heat maps showing coverage gaps
+- Filterable by region and demographics
 
-## Conclusion
+## Technologies
 
-Through the assimilation of census data and the count of opioid programs within each state, the federal government can partner with state governments to determine the ratio of treatment centers per capita. This complete information can be utilized to identify regions with varying levels of accessibility to these crucial services.
+- **Python:** Pandas, Requests (API integration), data processing
+- **Tableau:** Interactive dashboards, geographic mapping
+- **APIs:** CMS Provider API, Census demographic data
+- **Analysis:** Statistical comparison, per capita calculations
 
-While the accessibility of private healthcare services is desirable, these opportunities are not equitably available to all individuals. By pinpointing areas where the federal government can make improvements, public tax funds can be invested in promoting recovery and enhancing the life expectancy of the average American citizen.
+## Business Impact
+
+- **Policy Planning:** Identifies priority regions for federal investment
+- **Resource Allocation:** Data-driven approach to treatment center placement
+- **Gap Analysis:** Quantifies underserved populations by geography
+- **Cost Optimization:** Targets areas with highest need-to-resource ratios
+
+## Project Structure
+medicare-opioid-analysis/
+├── data_collection.py          # API data retrieval
+├── data_processing.py          # Cleaning and analysis
+├── analysis_output.csv         # Processed results
+├── tableau_dashboard.twb       # Interactive visualizations
+└── README.md                   # Documentation
+## Usage
+
+```bash
+pip install pandas requests
+python data_collection.py
+python data_processing.py
+
+Output: Clean dataset with treatment centers per capita by state, ready for Tableau visualization
+Future Enhancements
+
+Real-time Updates: Automated monthly data refresh
+Demographic Overlay: Income and insurance coverage analysis
+Trend Analysis: Multi-year comparison of program growth
+Cost Analysis: Integration with program funding data
