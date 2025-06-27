@@ -1,25 +1,83 @@
-# Workflow Optimization
-Data Source: BD Pyxis & BD PARx Hospital Activity Reports.
-Dataset is not shared publicly for privacy.
+# Workforce Distribution Optimization
 
-## Objective
-Rebalance and establish workflows for sixteen inpatient pharmacy technician shifts leveraging data insights.
+Excel-based analysis optimizing workload distribution across 16 inpatient pharmacy technician shifts. Uses activity data and staff feedback to balance productivity and eliminate workflow bottlenecks.
 
-## Background
-With the easing of COVID-19 restrictions in the hospital, the department began reorganizing the sixteen technician shifts under new leadership.
+## Overview
+
+Analyzed pharmacy workflow data to redistribute job duties across 16 shifts during post-COVID departmental reorganization. Combined quantitative activity reports with qualitative staff input to achieve balanced workload distribution.
+
+**Key Features:**
+- Multi-shift activity analysis using BD Pyxis reports
+- Staff interview integration for workflow insights
+- Iterative testing with data-driven adjustments
+- Visual dashboard tracking for management decisions
+
+## Data Sources
+
+- **BD Pyxis Activity Reports** - Medication dispensing patterns
+- **BD PARx Reports** - Inventory refill activities  
+- **Staff Interviews** - Workflow pain points and suggestions
+- **Weekly Testing Data** - Trial period performance metrics
+
+*Note: Hospital data not publicly shared for privacy compliance*
 
 ## Methodology
-In order to accomplish our goal, we implemented a comprehensive strategy.
 
-Data Collection: Leveraged BD-generated reports, conducted personnel interviews, and employed visualization techniques for data-driven decision-making.
+### 1. Data Collection
+- Extracted activity reports from BD systems
+- Conducted staff interviews across all 16 shifts
+- Tracked performance metrics during trial periods
 
-Dataset Acquisition: By incorporating feedback from our staff experts, utilizing BD’s Pyxis Activity and PARx reports, and integrating the findings from our weekly shift testing, we were able to make significant improvements.
+### 2. Analysis Process
+- Analyzed medication pull patterns by shift timing
+- Identified workload imbalances between morning/evening teams
+- Measured impact of staffing changes on delivery times
 
-Software: Microsoft Excel was used to gather, clean, manipulate, and correct data.
+### 3. Iterative Testing
+- **Trial 1:** Additional morning resources → Evening workload gaps
+- **Trial 2:** Later shift start → Reduced pharmacy coverage  
+- **Trial 3:** Optimized timing → Balanced workflow achieved
 
-Visualization: Created dashboards and graphs using Excel.
+## Key Results
 
-## Key Visualization
+### Problem Identification
+- Uneven medication pull distribution between shifts
+- STAT delivery delays during coverage gaps
+- Phone traffic spikes during understaffing periods
+
+### Solution Implementation
+- Redistributed ancillary tasks to evening shifts
+- Balanced morning/evening teams (8 staff each)
+- Maintained adequate pharmacy coverage for urgent needs
+
+### Final Outcome
+**Workflow now equitably distributed across 16 shifts with:**
+- Balanced medication pull responsibilities
+- Improved STAT delivery response times
+- Reduced phone traffic delays
+- Strategic task allocation by shift priority
+
+## Technologies
+
+- **Microsoft Excel:** Data processing, analysis, and visualization
+- **BD Pyxis/PARx Systems:** Hospital activity reporting
+- **Dashboard Creation:** Excel charts and graphs for management reporting
+
+## Business Impact
+
+- **Efficiency:** Eliminated workflow bottlenecks between shifts
+- **Staff Satisfaction:** Balanced workload reduces burnout
+- **Patient Care:** Faster STAT medication delivery
+- **Resource Optimization:** Strategic task allocation by shift capacity
+
+## Visualizations
+
+Project includes before/after comparisons showing:
+- Shift workload distribution analysis
+- Medication pull timing optimization
+- Resource allocation effectiveness
+- Final workflow balance achievement
+
 ![First trial](https://github.com/mirjo3/projects/blob/c5c93eb9fd529d0c61489599ae0d1ea63aeab379/workflow_optimization/Shift%20Comparison%20Aggregate%20(PXT2%20at%201100).png)
 Despite allocating additional resources to the morning shift, the evening team encountered reduced workload, resulting in missed medication pulls from the evening staff and increased the morning medication pulls.
 
@@ -32,5 +90,6 @@ After workflow adjustments, we effectively managed evening medication pulls, ens
 ![September Comparison](https://github.com/mirjo3/projects/blob/c2c462c7ad26b95da0b95001c8f0d9f6773e1677/workflow_optimization/%5BSep%5D%20AVERAGES%20OF%20PARX%20%26%20TOTAL%20REFILL_LOAD%20ACTIVITY.png)
 Workflow is now equitably distributed among the sixteen shifts, with the morning and evening teams having eight staff members each. We've strategically reallocated ancillary, non-urgent tasks to the evening shift, complementing the morning team's total hospital active duties.
 
-## Conclusion
-Through consistent practice, looking at the data, making adjustments, and receiving weekly feedback, we were able to successfully implement a new workflow that evenly distributed tasks between the morning and evening shifts for all sixteen crews. To explain the reasoning behind specific side duties assigned to different shifts, charts were distributed to the team to provide context between the shift trials and changes.
+---
+
+*Project demonstrates workforce analytics, change management, and data-driven process improvement in healthcare operations.*
